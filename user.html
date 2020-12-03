@@ -8,71 +8,82 @@
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-teal.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Roboto", sans-serif
+    }
 </style>
+
 <body class="w3-light-grey">
 
-<header class="w3-container w3-theme w3-padding" id="myHeader" style="height: 200px">
-  <div class="w3-center">
-  <h1 class="w3-xxxlarge w3-animate-bottom">Your espace</h1>
-  </div>
-  <a href="homePage.html"><span class="w3-left w3-xxlarge">« HomePage</span></a>
-</header>
+    <header class="w3-container w3-theme w3-padding" id="myHeader" style="height: 200px">
+        <div class="w3-center">
+            <h1 class="w3-xxxlarge w3-animate-bottom">Suas Informações</h1>
+        </div>
+        <a href="homePage.html"><span class="w3-left w3-xxlarge">« HomePage</span></a>
+    </header>
 
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
-  <div class="w3-row-padding">
-    <div class="w3-third">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container" style="padding:20px">
-          <i class="fa fa-user w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+    <div class="w3-content w3-margin-top" style="max-width:1400px;">
+        <div class="w3-row-padding">
+            <div class="w3-third">
+
+                <div class="w3-white w3-text-grey w3-card-4">
+                    <div class="w3-display-container" style="padding:20px">
+                        <i class="fa fa-user w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+                    </div>
+                    <div class="w3-container">
+                        <p><i class="fa fa-male fa-fw w3-margin-right w3-large w3-text-teal"></i>username</p>
+                        <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>user@mail.com</p>
+                        <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1224435534</p>
+                        <hr> <br>
+                    </div>
+                </div><br>
+            </div>
+
+            <div class="w3-twothird">
+                <div class="w3-container w3-card w3-white w3-margin-bottom">
+                    <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-file fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Descrição</h2>
+                    <div class="w3-container">
+                        <p>Eu sou @, tenho como principais hobbies desenvolvimento de aplicativos para dispositivos móveis e desenvolvimento web.</p>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="w3-container w3-card w3-white">
+                    <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-file fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Alterar Informações Básicas</h2>
+                    <div class="w3-container">
+                        <form id="myform" name="myform" method="POST">
+                            <h5 class="w3-opacity"><b>Nome</b></h5>
+                            <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br/>
+                            <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Email</b></h5>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu email"><br/>
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h5 class="w3-opacity"><b>Senha</b></h5>
+                        <input type="text" id="nome" name="nome" placeholder="Digite sua nova senha"><br/>
+                    </div>
+                    <br>
+                    <button class="w3-button w3-teal">Alterar</button>
+                    <br><br>
+                    </form>
+                </div>
+
+            </div>
+
         </div>
-        <div class="w3-container">
-		  <p><i class="fa fa-male fa-fw w3-margin-right w3-large w3-text-teal"></i>username</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>user@mail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1224435534</p>
-          <hr> <br>
-        </div>
-      </div><br>
+
     </div>
-
-    <div class="w3-twothird">
-      <div class="w3-container w3-card w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-file fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Descrição</h2>
-        <div class="w3-container">
-          <p>Eu sou @, tenho como principais hobbies desenvolvimento de aplicativos para dispositivos móveis e desenvolvimento web.</p>
-          <hr>
-        </div>
-      </div>
-
-      <div class="w3-container w3-card w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-file fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Alterar Informações Básicas</h2>
-        <div class="w3-container">
-			<form id="myform" name="myform" method="POST">
-	          <h5 class="w3-opacity"><b>Nome</b></h5>
-              <input type="text" id="nome" name="nome" placeholder="Digite seu nome"><br/>
-	          <hr>
-	        </div>
-	        <div class="w3-container">
-	          <h5 class="w3-opacity"><b>Email</b></h5>
-               <input type="text" id="nome" name="nome" placeholder="Digite seu email"><br/>
-	          <hr>
-	        </div>
-	        <div class="w3-container">
-	          <h5 class="w3-opacity"><b>Senha</b></h5>
-              <input type="text" id="nome" name="nome" placeholder="Digite sua nova senha"><br/>
-	        </div>
-			<br>
-			<button class="w3-button w3-teal">Alterar</button>
-			<br><br>
-		</form>
-      </div>
-
-    </div>
-    
-  </div>
-  
-</div>
 
 </body>
+
 </html>
